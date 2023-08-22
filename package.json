@@ -1,5 +1,4 @@
 {
-  "proxy": "https://cd4repo.vercel.app/home",
   "name": "docfind",
   "version": "0.1.0",
   "private": true,
