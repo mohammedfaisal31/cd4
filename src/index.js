@@ -14,7 +14,7 @@ import './assets/css/style.css';
 import './index.css';
 
 ReactDOM.render(
-    <App />
+    <App />,
   
   document.getElementById('docfind')
 );
