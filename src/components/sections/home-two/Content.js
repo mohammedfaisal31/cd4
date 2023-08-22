@@ -31,11 +31,11 @@ class Content extends Component {
                 <div className="section section-padding bg-gray" />
                 <div className="section section-padding bg-gray">
                     <Testimonials />
-                    <Cta />
+                    {/* <Cta /> */}
                 </div>
                 <div className="section section-padding" />
-                <Quote />
-                <Blogs />
+                {/* <Quote /> */}
+                {/* <Blogs /> */}
             </Fragment>
         );
     }

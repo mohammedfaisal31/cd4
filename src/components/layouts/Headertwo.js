@@ -28,13 +28,13 @@ class Headertwo extends Navhelper {
                                         <li>
                                             <Link to="#">
                                                 <i className="fal fa-envelope" />
-                                                example@example.com
+                                                example@cd4academy.com
                                             </Link>
                                         </li>
                                         <li>
                                             <Link to="#">
                                                 <i className="fal fa-map-marker-alt" />
-                                                Oakwood, Los Angeles, CA 1098
+                                                JP nagar, Bangalore, IN 560078
                                             </Link>
                                         </li>
                                     </ul>
@@ -58,7 +58,7 @@ class Headertwo extends Navhelper {
                         <div className="sigma_header-middle pl-4 pr-4">
                             <div className="navbar">
                                 <div className="sigma_logo-wrapper">
-                                    <Link to="/" className="sigma_logo">
+                                    <Link to="/home" className="sigma_logo">
                                         <img src={process.env.PUBLIC_URL + "/assets/img/logo.png"} alt="logo" />
                                     </Link>
                                 </div>

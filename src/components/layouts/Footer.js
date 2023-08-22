@@ -16,7 +16,7 @@ class Footer extends Component {
                             </div>
                             <div className="sigma_info-description">
                                 <p>Our Address</p>
-                                <p className="secondary-color"><b>Drive Chicago, IL 60607</b>
+                                <p className="secondary-color"><b>JP Nagar, IN 560078</b>
                                 </p>
                             </div>
                         </div>
@@ -28,7 +28,7 @@ class Footer extends Component {
                             </div>
                             <div className="sigma_info-description">
                                 <p>Call Us</p>
-                                <p className="secondary-color"><b>360-779-2228</b>
+                                <p className="secondary-color"><b>+91 9252676794</b>
                                 </p>
                             </div>
                         </div>
@@ -40,7 +40,7 @@ class Footer extends Component {
                             </div>
                             <div className="sigma_info-description">
                                 <p>Our Mail</p>
-                                <p className="secondary-color"><b>example@example.com</b>
+                                <p className="secondary-color"><b>example@cd4academy.com</b>
                                 </p>
                             </div>
                         </div>

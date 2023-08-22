@@ -13,13 +13,13 @@ class Banner extends Component {
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-lg-6">
-                                    <h5 className="primary-color">Markets &amp; Resources</h5>
+                                    <h5 className="primary-color">HealthTech &amp; Medical Education</h5>
                                     <h1 className="title">
-                                        Find The Best Doctor near By You
+                                    Welcome to CD4 ACADEMY
                                     </h1>
                                     <div className="banner-links d-flex align-items-center">
-                                        <Link to="/contact" className="sigma_btn">Get a Quote</Link>
-                                        <Link to="/about" className="sigma_btn light ml-4">Read more</Link>
+                                        <Link to="/contact" className="sigma_btn">Contact us</Link>
+                                        <Link to="/about" className="sigma_btn light ml-4">About US</Link>
                                     </div>
                                 </div>
                                 <div className="col-lg-6 d-none d-lg-block">

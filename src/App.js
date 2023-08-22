@@ -42,13 +42,13 @@ const ScrollToTop = withRouter(({ children, location: { pathname } }) => {
 
 function App() {
   return (
-    <Router basename={"/themes/themeforest/react/docfind/"}>
+    <Router basename={"/"}>
       <Suspense fallback={<div></div>}>
         <ScrollToTop>
           <Switch>
             {/* Home */}
-            <Route exact path="/" component={Home} />
-            <Route exact path="/home-v2" component={Hometwo} />
+            {/* <Route exact path="/" component={Home} /> */}
+            <Route exact path="/home" component={Hometwo} />
             {/* Blog */}
             <Route exact path="/blog/cat/:catId" component={props => (<Blog {...props} key={window.location.pathname} />)} />
             <Route exact path="/blog/tag/:tagId" component={props => (<Blog {...props} key={window.location.pathname} />)} />
