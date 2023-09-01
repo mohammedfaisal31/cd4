@@ -14,8 +14,9 @@ import './assets/css/style.css';
 import './index.css';
 
 ReactDOM.render(
-    <App />,
-  
+  <BrowserRouter basename={"/"}>
+    <App />
+  </BrowserRouter>,
   document.getElementById('docfind')
 );
 

@@ -12,7 +12,7 @@ class Services extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Docfind - Doctors Appointment Booking - React Template | {pagelocation}</title>
+                    <title>CD4 Academy | {pagelocation}</title>
                     <meta
                         name="description"
                         content="#"

@@ -101,10 +101,14 @@ class Headertwo extends Navhelper {
                                     <div className="sigma_header-controls style-2">
                                         <ul className="sigma_header-controls-inner">
                                             <li className="d-none d-sm-block ml-5">
-                                                <Link to="/doctor-grid" className="sigma_btn btn-sm">
-                                                    Find A Doctor
+                                                <Link to="/home" className="sigma_btn btn-sm">
+                                                    Find Resources
                                                     <i className="fal fa-plus ml-3" />
                                                 </Link>
+                                                {/* <Link to="/doctor-grid" className="sigma_btn btn-sm">
+                                                    Find Resources
+                                                    <i className="fal fa-plus ml-3" />
+                                                </Link> */}
                                             </li>
                                             <li className="aside-toggle aside-trigger" onClick={this.toggleNav}>
                                                 <span />
