@@ -48,7 +48,7 @@ function App() {
           <Switch>
             {/* Home */}
             {/* <Route exact path="/" component={Home} /> */}
-            <Route exact path="/home" component={Hometwo} />
+            <Route exact path="/" component={Hometwo} />
             {/* Blog */}
             <Route exact path="/blog/cat/:catId" component={props => (<Blog {...props} key={window.location.pathname} />)} />
             <Route exact path="/blog/tag/:tagId" component={props => (<Blog {...props} key={window.location.pathname} />)} />
