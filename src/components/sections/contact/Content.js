@@ -9,7 +9,7 @@ class Content extends Component {
             <Fragment>
                 <Contacticons />
                 {/* <Contactform /> */}
-                <Contactmap />
+               <h1>You can have your office map location embedded here</h1>
             </Fragment>
         );
     }
