@@ -2,7 +2,7 @@
   "name": "docfind",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://metropolitanhost.com/themes/themeforest/react/docfind/",
+  "homepage": "https://cd4repo.vercel.app/home",
   "proxy": "http://localhost:5000",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
