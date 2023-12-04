@@ -13,21 +13,31 @@
       {
         "id": 4.1,
         "link": "/service-1",
-        "linkText": "Service 1"
+        "linkText": "Clinical Trial Data Annotation"
       },
       {
         "id": 4.2,
-        "link": "/service-1",
-        "linkText": "Service 2"
+        "link": "/service-2",
+        "linkText": "Medical Image Labeling"
       },
       {
         "id": 4.3,
-        "link": "/service-1",
-        "linkText": "Service 3"
+        "link": "/service-3",
+        "linkText": "AI-Based Research Assistance"
       }
     ]
   },
-
+  {
+    "id": 7,
+    "link": "/whyus",
+    "linkText": "Why us?"
+  },
+  {
+    "id": 8,
+    "link": "/about",
+    "linkText": "About us"
+  },
+  
   {
     "id": 6,
     "link": "/contact",

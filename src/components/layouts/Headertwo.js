@@ -21,20 +21,20 @@ class Headertwo extends Navhelper {
                 {/* Header */}
                 <header className="sigma_header style-5 bg-transparent shadow-none can-sticky">
                     <div className="container">
-                        <div className="sigma_header-top d-none d-md-block">
+                        <div className="sigma_header-top d-none d-md-block text-white">
                             <div className="sigma_header-top-inner">
                                 <div className="sigma_header-top-links">
                                     <ul className="sigma_header-top-nav">
                                         <li>
                                             <Link to="#">
                                                 <i className="fal fa-envelope" />
-                                                example@cd4academy.com
+                                                joshuachacko53@gmail.com
                                             </Link>
                                         </li>
                                         <li>
                                             <Link to="#">
                                                 <i className="fal fa-map-marker-alt" />
-                                                JP nagar, Bangalore, IN 560078
+                                                Vidyaranyapuram,Bangalore 560097
                                             </Link>
                                         </li>
                                     </ul>
@@ -59,7 +59,7 @@ class Headertwo extends Navhelper {
                             <div className="navbar">
                                 <div className="sigma_logo-wrapper">
                                     <Link to="/home" className="sigma_logo">
-                                        <img src={process.env.PUBLIC_URL + "/assets/img/logo.png"} alt="logo" />
+                                        <img src={process.env.PUBLIC_URL + "/assets/img/CD4_logo.jpg"} alt="logo" />
                                     </Link>
                                 </div>
                                 <div className="d-flex align-items-center">
@@ -98,17 +98,17 @@ class Headertwo extends Navhelper {
                                         ))}
                                         {/* Data */}
                                     </ul>
-                                    <div className="sigma_header-controls style-2">
+                                    {/* <div className="sigma_header-controls style-2">
                                         <ul className="sigma_header-controls-inner">
                                             <li className="d-none d-sm-block ml-5">
                                                 <Link to="/home" className="sigma_btn btn-sm">
                                                     Find Resources
                                                     <i className="fal fa-plus ml-3" />
                                                 </Link>
-                                                {/* <Link to="/doctor-grid" className="sigma_btn btn-sm">
+                                                 <Link to="/doctor-grid" className="sigma_btn btn-sm">
                                                     Find Resources
                                                     <i className="fal fa-plus ml-3" />
-                                                </Link> */}
+                                                </Link> 
                                             </li>
                                             <li className="aside-toggle aside-trigger" onClick={this.toggleNav}>
                                                 <span />
@@ -116,7 +116,7 @@ class Headertwo extends Navhelper {
                                                 <span />
                                             </li>
                                         </ul>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>

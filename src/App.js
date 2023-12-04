@@ -12,6 +12,11 @@ const Blogdetails = React.lazy(() => import("./components/pages/Blogdetails"));
 const About = React.lazy(() => import("./components/pages/About"));
 // Services
 const Services = React.lazy(() => import("./components/pages/Services"));
+const Service1 = React.lazy(() => import("./components/pages/Service1"));
+const Service2 = React.lazy(() => import("./components/pages/Service2"));
+const Service3 = React.lazy(() => import("./components/pages/Service3"));
+
+
 const Servicedetails = React.lazy(() => import("./components/pages/Servicedetails"));
 // FAQ's
 const Faqs = React.lazy(() => import("./components/pages/Faqs"));
@@ -27,6 +32,8 @@ const Doctorlist = React.lazy(() => import("./components/pages/Doctorlist"));
 const Doctordetails = React.lazy(() => import("./components/pages/Doctordetails"));
 // Contact
 const Contact = React.lazy(() => import("./components/pages/Contact"));
+const WhyUs = React.lazy(() => import("./components/pages/WhyUs"));
+
 // Extra
 const Errorpage = React.lazy(() => import("./components/pages/Errorpage"));
 
@@ -49,6 +56,8 @@ function App() {
             {/* Home */}
             {/* <Route exact path="/" component={Home} /> */}
             <Route exact path="/" component={Hometwo} />
+            <Route exact path="/home" component={Hometwo} />
+            
             {/* Blog */}
             <Route exact path="/blog/cat/:catId" component={props => (<Blog {...props} key={window.location.pathname} />)} />
             <Route exact path="/blog/tag/:tagId" component={props => (<Blog {...props} key={window.location.pathname} />)} />
@@ -62,6 +71,11 @@ function App() {
             {/* Services */}
             <Route exact path="/service/cat/:catId" component={props => (<Services {...props} key={window.location.pathname} />)} />
             <Route exact path="/services" component={Services} />
+            <Route exact path="/service-1" component={Service1} />
+            <Route exact path="/service-2" component={Service2} />
+            <Route exact path="/service-3" component={Service3} />
+            
+            
             <Route exact path="/service-details/:id" component={props => (<Servicedetails {...props} key={window.location.pathname} />)} />
             {/* FAQ's */}
             <Route exact path="/faqs" component={Faqs} />
@@ -79,6 +93,7 @@ function App() {
             <Route exact path="/doctor-details/:id" component={props => (<Doctordetails {...props} key={window.location.pathname} />)} />
             {/* Contact */}
             <Route exact path="/contact" component={Contact} />
+            <Route exact path="/whyus" component={WhyUs} />
             {/* Extra */}
             <Route exact path="/error-page" component={Errorpage} />
             <Route exact component={Errorpage} />

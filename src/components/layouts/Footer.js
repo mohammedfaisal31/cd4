@@ -16,7 +16,7 @@ class Footer extends Component {
                             </div>
                             <div className="sigma_info-description">
                                 <p>Our Address</p>
-                                <p className="secondary-color"><b>JP Nagar, IN 560078</b>
+                                <p className="secondary-color"><b>No 11& 12,10 th A Cross,Virupakshapura, Vidyaranyapuram, P.O. Bangalore 560097</b>
                                 </p>
                             </div>
                         </div>
@@ -28,7 +28,7 @@ class Footer extends Component {
                             </div>
                             <div className="sigma_info-description">
                                 <p>Call Us</p>
-                                <p className="secondary-color"><b>+91 9252676794</b>
+                                <p className="secondary-color"><b>+91 8792294344</b>
                                 </p>
                             </div>
                         </div>
@@ -40,7 +40,7 @@ class Footer extends Component {
                             </div>
                             <div className="sigma_info-description">
                                 <p>Our Mail</p>
-                                <p className="secondary-color"><b>example@cd4academy.com</b>
+                                <p className="secondary-color"><b>joshuachacko53@gmail.com</b>
                                 </p>
                             </div>
                         </div>
@@ -52,14 +52,14 @@ class Footer extends Component {
                             <div className="col-lg-4">
                                 <div className="sigma_footer-widget">
                                     <div className="sigma_footer-logo mb-4">
-                                        <img src={process.env.PUBLIC_URL + "/assets/img/logo.png"} alt="logo" />
+                                        <img height={370} width={370} src={process.env.PUBLIC_URL + "/assets/img/CD4_logo-large-no-bg.png"} alt="logo" />
                                     </div>
-                                    <div className="row">
+                                    {/* <div className="row">
                                         <div className="col-sm-9">
                                             <p className="mb-0">It is a long established fact that a reader will be distracted by the
                                                 readable.</p>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <ul className="sigma_social-icons has-border mt-4 justify-content-start">
                                         <li>
                                             <Link to="#"><i className="fab fa-facebook-f" /></Link>
@@ -83,12 +83,16 @@ class Footer extends Component {
                                 <div className="sigma_footer-widget">
                                     <h5 className="widget-title">Services</h5>
                                     <ul className="sigma_footer-links">
-                                        {/* Data */}
-                                        {serviceblock.slice(0, 5).map((item, i) => (
-                                            <li key={i}>
-                                                <Link to={"/service-details/" + item.id}>{item.title}</Link>
-                                            </li>
-                                        ))}
+                                        <li>
+                                                <Link to={"/service-1"}>Clinical Trial Data Annotation</Link>
+                                        </li>
+                                        <li>
+                                                <Link to={"/service-2"}>Medical Image Labeling</Link>
+                                        </li>
+                                        <li>
+                                                <Link to={"/service-3"}>AI-Based Research Assistance</Link>
+                                        </li>
+                                        
                                         {/* Data */}
                                     </ul>
                                 </div>
@@ -102,12 +106,6 @@ class Footer extends Component {
                                         </li>
                                         <li>
                                             <Link to="/about">About Us</Link>
-                                        </li>
-                                        <li>
-                                            <Link to="/blog">News</Link>
-                                        </li>
-                                        <li>
-                                            <Link to="/doctor-grid">Doctors</Link>
                                         </li>
                                         <li>
                                             <Link to="/contact">Contact Us</Link>
@@ -131,7 +129,7 @@ class Footer extends Component {
                 <div className="container">
                     <div className="sigma_footer-bottom d-block d-sm-flex align-items-center justify-content-between">
                         <div className="sigma_footer-copyright mt-0 mb-3 mb-sm-0">
-                            <p className="mb-0">© Website <Link to="#">2022</Link> | All Rights Reserved
+                            <p className="mb-0">© CD4 Academy <Link to="#">2023</Link> | All Rights Reserved
                             </p>
                         </div>
                         <ul className="sigma_footer-links">

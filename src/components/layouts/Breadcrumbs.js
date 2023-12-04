@@ -16,9 +16,9 @@ class Breadcrumbs extends Component {
                         <li className="breadcrumb-item active" aria-current="page">{this.props.breadcrumb.pagename}</li>
                     </ol>
                 </div>
-                <img src={process.env.PUBLIC_URL + "/assets/img/subheader-br.png"} className="br" alt="subheader" />
-                <img src={process.env.PUBLIC_URL + "/assets/img/subheader-bl.png"} className="bl" alt="subheader" />
-                <img src={process.env.PUBLIC_URL + "/assets/img/subheader-tr.png"} className="tr" alt="subheader" />
+                {/* <img src={process.env.PUBLIC_URL + "/assets/img/subheader-tr1.jpg"} className="br" alt="subheader" />
+                <img src={process.env.PUBLIC_URL + "/assets/img/subheader-tr1.jpg"} className="bl" alt="subheader" />
+                <img src={process.env.PUBLIC_URL + "/assets/img/subheader-tr1.jpg"} className="tr" alt="subheader" /> */}
             </div>
         );
     }
