@@ -50,44 +50,7 @@ class Team extends Component {
                                 </div>
                                 
                             </div>
-                            <div className="col-lg-3 col-md-4 col-sm-6" >
-                                <div className="sigma_team style-15">
-                                     <div className="sigma_team-thumb">
-                                        <img src={process.env.PUBLIC_URL + "/assets/img/profile-icon1-nobg.png"} alt={"joshua"} />
-                                    </div> 
-                                    <div className="sigma_team-body">
-                                        <h5>
-                                            <Link to={"/doctor-details/" }>Anand G A</Link>
-                                        </h5>
-                                        <div className="sigma_team-categories">
-                                            <Link to={"/doctor-details/" } className="sigma_team-category">Data Annotation Team lead</Link>
-                                        </div>
-                                        <p>
-                                        Anand, a B.Pharm graduate with over 5 years of experience in medical text annotation and data science, has a strong background in medical data labeling, NLP techniques, and clinical decision support systems, whose innovative approaches have significantly impacted medical data processing and analysis.
-                                        </p>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                            <div className="col-lg-3 col-md-4 col-sm-6" >
-                                <div className="sigma_team style-15">
-                                     <div className="sigma_team-thumb">
-                                        <img src={process.env.PUBLIC_URL + "/assets/img/profile-icon1-nobg.png"} alt={"joshua"} />
-                                    </div> 
-                                    <div className="sigma_team-body">
-                                        <h5>
-                                            <Link to={"/doctor-details/" }>Suma H B</Link>
-                                        </h5>
-                                        <div className="sigma_team-categories">
-                                            <Link to={"/doctor-details/" } className="sigma_team-category">Project Manager</Link>
-                                        </div>
-                                        <p>
-                                        With a postgraduate degree in Clinical Research and Data Management, over 5 years of experience in medical data annotation, AI and NLP applications in healthcare, and strong PMP skills, she possesses exceptional leadership and team management abilities.
-                                        </p>
-                                    </div>
-                                </div>
-                                
-                            </div>
+                            
                             
                             <div className="col-lg-3 col-md-4 col-sm-6" >
                                 <div className="sigma_team style-15">
