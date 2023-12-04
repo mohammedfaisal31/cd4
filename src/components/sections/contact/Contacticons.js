@@ -15,7 +15,7 @@ class Contacticons extends Component {
                                 </div>
                                 <div className="sigma_info-description">
                                     <h5>Our Address</h5>
-                                    <p>5th cross, 22nd main JP nagar, Bangalore-IN</p>
+                                    <p>No 11& 12,10 th A Cross,Virupakshapura, Vidyaranyapuram, P.O. Bangalore -IN,560097</p>
                                 </div>
                             </div>
                         </div>
@@ -28,8 +28,7 @@ class Contacticons extends Component {
                                 </div>
                                 <div className="sigma_info-description">
                                     <h5>Our Phone</h5>
-                                    <p>Telephone: 0029129102320</p>
-                                    <p>Mobile: 9353676794</p>
+                                    <p>Mobile: +91 8792294344</p>
                                 </div>
                             </div>
                         </div>
@@ -42,8 +41,7 @@ class Contacticons extends Component {
                                 </div>
                                 <div className="sigma_info-description">
                                     <h5>Our Email</h5>
-                                    <p>Main Email: example@cd4academy.com</p>
-                                    <p>Inquiries: example@cd4academy.com</p>
+                                    <p>Email: joshuachacko53@gmail.com</p>
                                 </div>
                             </div>
                         </div>
