@@ -1688,7 +1688,7 @@ table img {
   padding: 8px;
 }
 .sigma_header .sigma_logo-wrapper .sigma_logo{
-  max-width: 300px;
+  max-width: 250px;
 }
 
 .sigma_header .navbar-nav {
@@ -1708,6 +1708,7 @@ table img {
   font-family: var(--thm-font);
   position: relative;
   font-size: 16px;
+  
 }
 
 .sigma_header .navbar-nav li:first-child>a {
