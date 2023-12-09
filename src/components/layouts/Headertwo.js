@@ -39,7 +39,7 @@ class Headertwo extends Navhelper {
                                         </li>
                                     </ul>
                                 </div>
-                                <div className="sigma_header-top-contacts">
+                                {/* <div className="sigma_header-top-contacts">
                                     <ul className="sigma_header-top-nav">
                                         <li> <Link to="#"><i className="fab fa-facebook-f" /></Link>
                                         </li>
@@ -50,7 +50,7 @@ class Headertwo extends Navhelper {
                                         <li> <Link to="#"><i className="fab fa-google" /></Link>
                                         </li>
                                     </ul>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

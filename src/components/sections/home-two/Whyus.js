@@ -18,7 +18,7 @@ class Whyus extends Component {
                         {/* <div className="col-lg-6"> */}
                             <div className="sigma_about style-9 mt-5 mt-lg-0 text-center">
                                 <div className="title ">
-                                    <h1 className="title mb-5">OUR MISSION</h1>
+                                    <h1 className="title mb-5">Our Mission</h1>
                                 </div>
                                 
                                 <div className="sigma_about-content ml-3">
@@ -26,7 +26,7 @@ class Whyus extends Component {
                                     <h4>Our mission is ambitious yet focused: to transform healthcare
                                     through AI and create 1000 AI-equipped doctors by 2025.
                                     </h4>
-                                    <p className='font-weight-bold'>Our primary objective is to deliver top-notch and reliable medical  services to a global clientele. Drawing from our vast expertise, experience, and cutting-edge technology, we offer tailored and compliant solutions. We consistently uphold the highest standards of professionalism, ethics, and excellence. Our passion revolves around creating and refining medical content that positively influences healthand well-being</p>
+                                    <p >Our primary objective is to deliver top-notch and reliable medical  services to a global clientele. Drawing from our vast expertise, experience, and cutting-edge technology, we offer tailored and compliant solutions. We consistently uphold the highest standards of professionalism, ethics, and excellence. Our passion revolves around creating and refining medical content that positively influences healthand well-being</p>
                                         
                                         {/* Data */}
                                         {/* {whyus.slice(0, 2).map((item, i) => (
