@@ -63,7 +63,7 @@ class Team extends Component {
                             <div className="col-lg-3 col-md-4 col-sm-6" >
                                 <div className="sigma_team style-15">
                                      <div className="sigma_team-thumb">
-                                        <img src={process.env.PUBLIC_URL + "/assets/img/profile-icon1-nobg.png"} alt={"joshua"} />
+                                        <img src={process.env.PUBLIC_URL + "/assets/img/shantala.jpg"} alt={"joshua"} />
                                     </div> 
                                     <div className="sigma_team-body">
                                         <h5>

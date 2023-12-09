@@ -20,16 +20,20 @@ class Team extends Component {
                                     </div>
                                     <div className="sigma_team-body">
                                         <h5>
-                                            <Link to={"/doctor-details/" }>Dr.Joshua S Chacko</Link>
+                                            <Link to={"/" }>Dr.Joshua S Chacko</Link>
                                         </h5>
                                         <div className="sigma_team-categories">
-                                            <Link to={"/doctor-details/" } className="sigma_team-category">Founder & CEO</Link>
+                                            <Link to={"/" } className="sigma_team-category">Founder & CEO</Link>
+                                        </div>
+                                        <div className="sigma_team-categories">
+                                            <a href="/"  style={{fontSize:"12px",color:"#3A96BF"}} >drjoshua@cd4academy.com</a>
                                         </div>
                                         <p>
                                         Leading AI and machine learning expert in healthcare product research and development, with 4 years of experience in health tech startups. They have expertise in industry use cases, product development, and clinical trials, and have collaborated with companies like Oracle. They have been involved in various NLP, computer vision, relationship extraction, and assertion projects.
                                         </p>
                                     </div>
                                 </div>
+                                
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-6" >
                                 <div className="sigma_team style-15">
@@ -38,32 +42,36 @@ class Team extends Component {
                                     </div>
                                     <div className="sigma_team-body">
                                         <h5>
-                                            <Link to={"/doctor-details/" }>Sharath Hari</Link>
+                                            <Link to={"/" }>Sharath Hari</Link>
                                         </h5>
                                         <div className="sigma_team-categories">
-                                            <Link to={"/doctor-details/" } className="sigma_team-category">Chief Marketing Officer</Link>
+                                            <Link to={"/" } className="sigma_team-category">Chief Marketing Officer</Link>
+                                        </div>
+                                        <div className="sigma_team-categories">
+                                            <a href="/"  style={{fontSize:"12px",color:"#3A96BF"}}> sharath@cd4academy.com</a>
                                         </div>
                                         <p>
                                         Has 18 years of experience in Marketing and Brand strategy. An ex-GM of Prestige and Naamdaris. Responsible for Planning, Designing, Implementing, and monitoring the overall business Marketing Communication and Brand Strategy. Identifying relevant mediums to go to market and scaling business with online and traditional mediums.
                                         </p>
+                                        
                                     </div>
                                 </div>
                                 
                             </div>
-                            
+                                
                            
                             
                             <div className="col-lg-3 col-md-4 col-sm-6" >
                                 <div className="sigma_team style-15">
                                      <div className="sigma_team-thumb">
-                                        <img src={process.env.PUBLIC_URL + "/assets/img/profile-icon1-nobg.png"} alt={"joshua"} />
+                                        <img src={process.env.PUBLIC_URL + "/assets/img/shantala.jpg"} alt={"joshua"} />
                                     </div> 
                                     <div className="sigma_team-body">
                                         <h5>
-                                            <Link to={"/doctor-details/" }>Dr. Snehalatha D</Link>
+                                            <Link to={"/" }>Dr. Snehalatha D</Link>
                                         </h5>
                                         <div className="sigma_team-categories">
-                                            <Link to={"/doctor-details/" } className="sigma_team-category">Content Team Manager</Link>
+                                            <Link to={"/" } className="sigma_team-category">Content Team Manager</Link>
                                         </div>
                                         <p>
                                         With 14 years of cardiology experience, she has collaborated with major healthcare companies like Tricog, specializing in ECG annotations and diagnosis.
@@ -76,14 +84,14 @@ class Team extends Component {
                             <div className="col-lg-3 col-md-4 col-sm-6" >
                                 <div className="sigma_team style-15">
                                      <div className="sigma_team-thumb">
-                                        <img src={process.env.PUBLIC_URL + "/assets/img/profile-icon1-nobg.png"} alt={"joshua"} />
+                                        <img src={process.env.PUBLIC_URL + "/assets/img/anayan.jpg"} alt={"joshua"} />
                                     </div> 
                                     <div className="sigma_team-body">
                                         <h5>
-                                            <Link to={"/doctor-details/" }>Dr Ananyan Sampath</Link>
+                                            <Link to={"/" }>Dr Ananyan Sampath</Link>
                                         </h5>
                                         <div className="sigma_team-categories">
-                                            <Link to={"/doctor-details/" } className="sigma_team-category">Content Team Lead</Link>
+                                            <Link to={"/" } className="sigma_team-category">Content Team Lead</Link>
                                         </div>
                                         <p>
                                         An AIIMS Bhopal Gold medalist, MBBS graduate, and academic scholar with a keen interest in artificial intelligence, he has worked as a research scholar and content creator, focusing on Medical AI.
@@ -96,14 +104,14 @@ class Team extends Component {
                             <div className="col-lg-3 col-md-4 col-sm-6" >
                                 <div className="sigma_team style-15">
                                      <div className="sigma_team-thumb">
-                                        <img src={process.env.PUBLIC_URL + "/assets/img/profile-icon1-nobg.png"} alt={"joshua"} />
+                                        <img src={process.env.PUBLIC_URL + "/assets/img/raymond.jpg"} alt={"joshua"} />
                                     </div> 
                                     <div className="sigma_team-body">
                                         <h5>
-                                            <Link to={"/doctor-details/" }>Dr. Raymond Haward</Link>
+                                            <Link to={"/" }>Dr. Raymond Haward</Link>
                                         </h5>
                                         <div className="sigma_team-categories">
-                                            <Link to={"/doctor-details/" } className="sigma_team-category">Project Manager</Link>
+                                            <Link to={"/" } className="sigma_team-category">Project Manager</Link>
                                         </div>
                                         <p>
                                         Project Manager of CD4 Academy handling multiple ongoing projects of the company and is a research scholar with vast experience in article writing and content creation.
