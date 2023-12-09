@@ -41,7 +41,7 @@ class Contacticons extends Component {
                                 </div>
                                 <div className="sigma_info-description">
                                     <h5>Our Email</h5>
-                                    <p>Email: joshuachacko53@gmail.com</p>
+                                    <p>Email: drjoshua@cd4academy.com</p>
                                 </div>
                             </div>
                         </div>

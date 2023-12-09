@@ -28,13 +28,13 @@ class Headertwo extends Navhelper {
                                         <li>
                                             <Link to="#">
                                                 <i className="fal fa-envelope" />
-                                                joshuachacko53@gmail.com
+                                                drjoshua@cd4academy.com
                                             </Link>
                                         </li>
                                         <li>
                                             <Link to="#">
                                                 <i className="fal fa-map-marker-alt" />
-                                                Vidyaranyapuram,Bangalore 560097
+                                                Bangalore,IN 560097
                                             </Link>
                                         </li>
                                     </ul>
@@ -54,12 +54,12 @@ class Headertwo extends Navhelper {
                             </div>
                         </div>
                     </div>
-                    <div className="container">
+                    <div className="container" >
                         <div className="sigma_header-middle pl-4 pr-4">
-                            <div className="navbar">
-                                <div className="sigma_logo-wrapper">
+                            <div className="navbar" style={{backdropFilter:"blur(100px)"}}>
+                                <div className="sigma_logo-wrapper" style={{marginTop:"5%"}}>
                                     <Link to="/home" className="sigma_logo">
-                                        <img src={process.env.PUBLIC_URL + "/assets/img/CD4_logo.jpg"} alt="logo" />
+                                        <img src={process.env.PUBLIC_URL + "/assets/img/CD4_logo.jpg"}  alt="logo" />
                                     </Link>
                                 </div>
                                 <div className="d-flex align-items-center">

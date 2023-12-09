@@ -40,7 +40,7 @@ class Footer extends Component {
                             </div>
                             <div className="sigma_info-description">
                                 <p>Our Mail</p>
-                                <p className="secondary-color"><b>joshuachacko53@gmail.com</b>
+                                <p className="secondary-color"><b>drjoshua@cd4academy.com</b>
                                 </p>
                             </div>
                         </div>
