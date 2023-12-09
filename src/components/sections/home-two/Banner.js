@@ -2,21 +2,59 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 class Banner extends Component {
+    constructor(props) {
+        super(props);
     
+        this.state = {
+          windowWidth: window.innerWidth,
+        };
+    
+        this.handleResize = this.handleResize.bind(this);
+      }
+    
+      componentDidMount() {
+        // Set initial window width on mount
+        this.setState({ windowWidth: window.innerWidth });
+    
+        // Add event listener for window resize
+        window.addEventListener('resize', this.handleResize);
+      }
+    
+      componentWillUnmount() {
+        // Clean up the event listener on component unmount
+        window.removeEventListener('resize', this.handleResize);
+      }
+    
+      handleResize() {
+        // Update window width on resize
+        this.setState({ windowWidth: window.innerWidth });
+      }
     render() {
+        const { windowWidth } = this.state;
+        
+        const divStyle = windowWidth > 767 ? {
+          backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/bg-ai.png)`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          /* Other styles for your component */
+        } : 
+        {
+            backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/bg-ai-blur.png)`,
+            backdropFilter : "blur(100px)"
+            
+        };
+
+        
+
+        
         return (
-            <div className="sigma_banner light-bg style-10 bg-cover"     style={{
-                backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/bg-ai.png)`,
-                backgroundSize: 'cover', // Adjust as needed
-                backgroundPosition: 'center', // Adjust as needed
-                /* Other styles for your component */
-              }}>
+            <div className="sigma_banner light-bg style-10 bg-cover bg-cover-ai"     style={divStyle}>
                 {/* <img src={process.env.PUBLIC_URL + "/assets/img/bgm-1.png"} className="tr" alt="img" />
                 <img src={process.env.PUBLIC_URL + "/assets/img/bg-ai-new1.png"} className="br" alt="img" /> */}
-                <div className="banner-slider-inner">
+                <div className="banner-slider-inner" >
                     <div className="sigma_banner-text" >
-                        <div className="container">
-                            <div className="row align-items-center">
+                        <div className="container" >
+                            <div className="row align-items-center" >
                                 
                                 <div className="col-lg-6" style={{backdropFilter:"blur(100px)",borderRadius:"10px",paddingLeft:"3%",paddingRight:"3%"}}>
                                     <h5 className="primary-color" style={{marginTop:"5%"}}>HealthTech &amp; Medical Education</h5>

@@ -11678,6 +11678,12 @@ background-color: var(--thm-border);
   line-height: 1;
 }
 
+@media (max-width: 767px) {
+  .bg-cover-ai {
+    background-image: none; /* Hide background image for phone width */
+  }
+}
+
 .sigma_banner h5 {
   font-weight: 500;
   position: relative;
@@ -11709,8 +11715,11 @@ background-color: var(--thm-border);
 
 .sigma_header-absolute .sigma_banner.style-8 .banner-slider-inner,
 .sigma_header-absolute .sigma_banner .banner-slider-inner {
-  padding: 260px 0 230px;
+  padding: 130px 0x 100px;
+  
 }
+
+
 
 .sigma_banner .banner-links {
   margin-top: 50px;

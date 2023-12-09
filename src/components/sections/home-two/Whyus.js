@@ -5,8 +5,8 @@ import whyus from "../../../data/whyus.json";
 class Whyus extends Component {
     render() {
         return (
-            <div className="section section-padding">
-                <div className="container">
+            <div className="section section-padding" style={{padding:"1%",marginTop:"5%"}}>
+                <div className="container" >
                     <div className="row align-items-center">
                         {/* <div className="col-lg-6">
                             <div className="sigma_about style-9 w-100 h-100">
@@ -23,10 +23,10 @@ class Whyus extends Component {
                                 
                                 <div className="sigma_about-content ml-3">
                                     <div className="row">
-                                    <h4>Our mission is ambitious yet focused: to transform healthcare
-                                    through AI and create 1000 AI-equipped doctors by 2025.
+                                    <h4 style={{marginRight:"5%",marginLeft:"2%"}}>Our mission is ambitious yet focused: to transform healthcare
+                                    through AI and create 1000+ AI-equipped doctors by 2025.
                                     </h4>
-                                    <p >Our primary objective is to deliver top-notch and reliable medical  services to a global clientele. Drawing from our vast expertise, experience, and cutting-edge technology, we offer tailored and compliant solutions. We consistently uphold the highest standards of professionalism, ethics, and excellence. Our passion revolves around creating and refining medical content that positively influences healthand well-being</p>
+                                    <p style={{marginRight:"5%",marginLeft:"2%"}}>Our primary objective is to deliver top-notch and reliable medical  services to a global clientele. Drawing from our vast expertise, experience, and cutting-edge technology, we offer tailored and compliant solutions. We consistently uphold the highest standards of professionalism, ethics, and excellence. Our passion revolves around creating and refining medical content that positively influences healthand well-being</p>
                                         
                                         {/* Data */}
                                         {/* {whyus.slice(0, 2).map((item, i) => (
