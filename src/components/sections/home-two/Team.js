@@ -60,6 +60,7 @@ class Team extends Component {
                         </div>
 
 
+
                         <div className="col-lg-3 col-md-4 col-sm-6" >
                             <div className="sigma_team style-15">
                                 <div className="sigma_team-thumb">
@@ -103,7 +104,7 @@ class Team extends Component {
                         <div className="col-lg-3 col-md-4 col-sm-6" >
                             <div className="sigma_team style-15">
                                 <div className="sigma_team-thumb">
-                                    <img src={process.env.PUBLIC_URL + "/assets/img/raymond.jpg"} alt={"joshua"} />
+                                    <img src={process.env.PUBLIC_URL + "/assets/img/raymond2.jpg"} alt={"joshua"} />
                                 </div>
                                 <div className="sigma_team-body">
                                     <h5>
@@ -114,6 +115,66 @@ class Team extends Component {
                                     </div>
                                     <p>
                                         Project Manager of CD4 Academy handling multiple ongoing projects of the company and is a research scholar with vast experience in article writing and content creation.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div className="col-lg-3 col-md-4 col-sm-6" >
+                            <div className="sigma_team style-15">
+                                <div className="sigma_team-thumb">
+                                    <img src={process.env.PUBLIC_URL + "/assets/img/jerin2.png"} alt={"jerin"} />
+                                </div>
+                                <div className="sigma_team-body">
+                                    <h5>
+                                        <Link to={"/"}>Jerin Mathew</Link>
+                                    </h5>
+                                    <div className="sigma_team-categories">
+                                        <Link to={"/"} className="sigma_team-category">Strategic and Technology Head</Link>
+                                    </div>
+                                    <p>
+                                        A Digital Transformation Architect and Six Sigma Yellow Belt professional, specializes in Snow-Public Sector Digital Services. With a background in Business Analysis at the University of Otago and the Palmerston North City Council, he excels in Technical Solution Design and Agile/Waterfall Project Implementation.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className="col-lg-3 col-md-4 col-sm-6" >
+                            <div className="sigma_team style-15">
+                                <div className="sigma_team-thumb">
+                                    <img src={process.env.PUBLIC_URL + "/assets/img/Jethin2.jpeg"} alt={"joshua"} />
+                                </div>
+                                <div className="sigma_team-body">
+                                    <h5>
+                                        <Link to={"/"}>Jethin Mathew</Link>
+                                    </h5>
+                                    <div className="sigma_team-categories">
+                                        <Link to={"/"} className="sigma_team-category">Data Lead</Link>
+                                    </div>
+                                    <p>
+
+                                        A seasoned Full Stack Developer and Six Sigma Yellow Belt, he excels in rapid enterprise application development using extreme programming. With expertise in Azure DevOps, Python, and React.js, he adeptly manages requirements, creates APIs, and designs UI. His impactful contributions include developing robust solutions in the logistics industry through the application of AI/ML models and algorithms.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className="col-lg-3 col-md-4 col-sm-6" >
+                            <div className="sigma_team style-15">
+                                <div className="sigma_team-thumb">
+                                    <img src={process.env.PUBLIC_URL + "/assets/img/Martin.jpeg"} alt={"joshua"} />
+                                </div>
+                                <div className="sigma_team-body">
+                                    <h5>
+                                        <Link to={"/"}>Martin West</Link>
+                                    </h5>
+                                    <div className="sigma_team-categories">
+                                        <Link to={"/"} className="sigma_team-category">AI Confidant</Link>
+                                    </div>
+                                    <p>
+
+                                        From seasoned IT consultant to Janars CEO, he boasts 30+ years of expertise from PwC, IBM, and Microsoft. Beyond project management, his forte lies in dissecting intricate problems. As a qualified mediator, he shaped Neutral Advocate into Janars, aligned with client logos, showcasing a history of innovation.
                                     </p>
                                 </div>
                             </div>

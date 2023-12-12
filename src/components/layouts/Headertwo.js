@@ -58,8 +58,8 @@ class Headertwo extends Navhelper {
                         <div className="sigma_header-middle pl-4 pr-4">
                             <div className="navbar">
                                 <div className="sigma_logo-wrapper" >
-                                    <Link to="/home" className="sigma_logo" style={{marginTop:"4%"}}>
-                                        <img src={process.env.PUBLIC_URL + "/assets/img/CD4_logo.jpg"}  alt="logo" />
+                                    <Link to="/home" className="sigma_logo" style={{ marginTop: "4%" }}>
+                                        <img src={process.env.PUBLIC_URL + "/assets/img/logo_short_final.png"} alt="logo" />
                                     </Link>
                                 </div>
                                 <div className="d-flex align-items-center">

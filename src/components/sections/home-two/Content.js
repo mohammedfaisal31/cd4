@@ -10,6 +10,7 @@ import Cta from './Cta';
 import Quote from './Quote';
 import Blogs from './Blogs';
 import Galleryslider from '../../layouts/Galleryslider';
+import Advisory from './Advisory';
 
 class Content extends Component {
     render() {
@@ -22,7 +23,8 @@ class Content extends Component {
                 </div> */}
                 <Whyus />
                 <Team />
-                <Testimonials/>
+                <Advisory />
+                <Testimonials />
                 {/* <div className="section section-padding bg-cover bg-center bg-secondary-1" style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/pattern-4.png)" }}>
                     <Servicestwo />
                     <div className="section section-padding p-0 margin-negative">

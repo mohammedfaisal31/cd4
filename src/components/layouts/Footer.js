@@ -52,7 +52,7 @@ class Footer extends Component {
                             <div className="col-lg-4">
                                 <div className="sigma_footer-widget">
                                     <div className="sigma_footer-logo mb-4">
-                                        <img height={370} width={370} src={process.env.PUBLIC_URL + "/assets/img/CD4_logo-large-no-bg.png"} alt="logo" />
+                                        <img src={process.env.PUBLIC_URL + "/assets/img/logo_large_final.png"} alt="logo" />
                                     </div>
                                     {/* <div className="row">
                                         <div className="col-sm-9">
@@ -60,22 +60,17 @@ class Footer extends Component {
                                                 readable.</p>
                                         </div>
                                     </div> */}
-                                    <ul className="sigma_social-icons has-border mt-4 justify-content-start">
+                                    <ul style={{ marginLeft: "45%" }} className="sigma_social-icons has-border mt-4 justify-content-start">
+
                                         <li>
-                                            <Link to="#"><i className="fab fa-facebook-f" /></Link>
+                                            <a href="https://www.instagram.com/drjoshua_chacko/"><i className="fab fa-instagram" /></a>
                                         </li>
                                         <li>
-                                            <Link to="#"><i className="fab fa-twitter" /></Link>
+                                            <a href="https://www.linkedin.com/in/drjoshuachacko"><i className="fab fa-linkedin" /></a>
                                         </li>
-                                        <li>
-                                            <Link to="#"><i className="fab fa-instagram" /></Link>
-                                        </li>
-                                        <li>
-                                            <Link to="#"><i className="fab fa-linkedin" /></Link>
-                                        </li>
-                                        <li>
+                                        {/* <li>
                                             <Link to="#"><i className="fab fa-google" /></Link>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </div>
                             </div>
@@ -84,15 +79,15 @@ class Footer extends Component {
                                     <h5 className="widget-title">Services</h5>
                                     <ul className="sigma_footer-links">
                                         <li>
-                                                <Link to={"/service-1"}>Clinical Trial Data Annotation</Link>
+                                            <Link to={"/service-1"}>Clinical Trial Data Annotation</Link>
                                         </li>
                                         <li>
-                                                <Link to={"/service-2"}>Medical Image Labeling</Link>
+                                            <Link to={"/service-2"}>Medical Image Labeling</Link>
                                         </li>
                                         <li>
-                                                <Link to={"/service-3"}>AI-Based Research Assistance</Link>
+                                            <Link to={"/service-3"}>AI-Based Research Assistance</Link>
                                         </li>
-                                        
+
                                         {/* Data */}
                                     </ul>
                                 </div>

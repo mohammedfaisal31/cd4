@@ -27,6 +27,32 @@
       }
     ]
   },
+ 
+  
+  
+  {
+    "id": 6,
+    "link": "/contact",
+    "linkText": "Contact Us"
+  },
+  {
+    "id": 9,
+    "linkText": "Blogs",
+    "child": true,
+    "submenu": [
+      {
+        "id": 9.1,
+        "link": "/blog-1",
+        "linkText": "Need for technical skills in Doctors"
+      },
+      {
+        "id": 9.2,
+        "link": "/blog-2",
+        "linkText": "Future of AI in Healthcare"
+      }
+      
+    ]
+  },
   {
     "id": 7,
     "link": "/whyus",
@@ -36,11 +62,5 @@
     "id": 8,
     "link": "/about",
     "linkText": "About us"
-  },
-  
-  {
-    "id": 6,
-    "link": "/contact",
-    "linkText": "Contact Us"
   }
 ]
