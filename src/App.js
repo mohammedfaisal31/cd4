@@ -20,6 +20,7 @@ const Servicedetails = React.lazy(() => import("./components/pages/Servicedetail
 //Blogs new 
 const Blog1 = React.lazy(() => import("./components/pages/Blog1"));
 const Blog2 = React.lazy(() => import("./components/pages/Blog2"));
+const Blog3 = React.lazy(() => import("./components/pages/Blog3"));
 
 
 // FAQ's
@@ -73,7 +74,8 @@ function App() {
 
             <Route exact path="/blog-1" component={Blog1} />
             <Route exact path="/blog-2" component={Blog2} />
-
+            <Route exact path="/blog-3" component={Blog3} />
+            
             {/* About */}
             <Route exact path="/about" component={About} />
             {/* Services */}

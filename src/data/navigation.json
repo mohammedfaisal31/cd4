@@ -49,6 +49,11 @@
         "id": 9.2,
         "link": "/blog-2",
         "linkText": "Future of AI in Healthcare"
+      },
+      {
+        "id": 9.3,
+        "link": "/blog-3",
+        "linkText": "Medical Scribing"
       }
       
     ]
